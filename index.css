@@ -1,0 +1,81 @@
+.tit {
+    text-align: center;
+    font-size: larger;
+    margin: 3%;
+    text-decoration: none;
+    color: white;
+}
+#marca {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: monospace;
+}
+nav{
+    display: block;
+    text-emphasis: 'none';
+    
+}
+#derPrincipal{
+    display: block;
+}
+#derInline{
+    display: inline;
+}
+article{
+    padding: 5% 0% 0% 22%;
+}
+.temasHeader{
+    display: flex;
+    align-items: center;
+}
+.albunesHeader{
+    float: right;
+    margin-top: 50px;
+    padding-right: 200px;
+}
+#colores {
+    padding-top: 10px;
+    float: right;
+    right: -140px;
+    position: absolute;
+}
+#imgColores{
+    width: 280px;
+}
+#imgAH-1{
+    margin-left: 10%;
+}
+#imgAH-2{
+    margin-right: 10%;
+}
+.imgAHeader{
+    height: 80px;
+    width: 80px;
+}
+#totalHeaderIzq{
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+#totalHeaderDer{
+    float: left;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+h4{
+    font-size: large;
+    font-weight: 100;
+}
+*{
+    margin: 0;
+}
+
+header {
+    background-image: url(img/Grupo\ 22@2x.jpg);
+    height: 400px;
+    color: white;
+    background-size: cover;
+}
