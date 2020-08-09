@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .tit {
     text-align: center;
     font-size: larger;
@@ -11,18 +14,41 @@
     font-family: monospace;
 }
 nav{
-    display: block;
-    text-emphasis: 'none';
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
     
+}
+#sonido {
+    height: 18px;
+    width: 100px;
+    margin-left: 10px;
+}
+#signIn{
+    border-radius: 131px 131px 131px 131px;
+    height: 25px;
+    width: 160px;
+    margin: 8px;
+    text-align: center;
+    border: solid;
+}
+#singIn span {
+    vertical-align: middle;
 }
 #derPrincipal{
     display: block;
+    margin-left: 40px;
 }
 #derInline{
     display: inline;
 }
-article{
-    padding: 5% 0% 0% 22%;
+#btnBusqueda {
+    display: inline-flex;
+    position: absolute;
+    right:0;
+    padding-right: 30px;
+
 }
 .temasHeader{
     display: flex;
@@ -32,6 +58,12 @@ article{
     float: right;
     margin-top: 50px;
     padding-right: 200px;
+}
+.tituloAlbum {
+    text-align: right;
+}
+.tituloAlbum p {
+    font-size: x-small;
 }
 #colores {
     padding-top: 10px;
@@ -53,9 +85,9 @@ article{
     width: 80px;
 }
 #totalHeaderIzq{
+    position: relative;
     float: right;
     overflow: hidden;
-    position: relative;
     height: 100%;
     width: 50%;
 }
@@ -65,13 +97,65 @@ article{
     height: 100%;
     width: 50%;
 }
+.generos {
+    display: inline-block;
+    border-radius: 131px 131px 131px 131px;
+    background-color: #767276;
+    height: 25px;
+    width: 160px;
+    margin: 8px;
+    text-align: center;
+    line-height: 25px;
+}
+.cuadros  {
+    margin-left: 10px;
+}
+.derInline {
+    display: inline-flex;
+    margin: 40px;
+}
+.logo {
+    padding-right: 15px;
+}
+#imgLogo {
+    width: 280px;
+}
+.textoHeader {
+    margin-left: 8%;
+    font-size: x-small;
+}
+#contentIzq {
+    height: 40%;
+    width: 70%;
+}
+.row {
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col {
+   
+}
+
+
+#busqueda {
+    border-radius: 131px 131px 131px 131px;
+    background-color: rgba(255,255,255, 0.3);
+    height: 25px;
+    width: 190px;
+    margin: 8px;
+}
+::placeholder {
+    color: white;
+    padding-left: 10px;
+}
 h4{
     font-size: large;
     font-weight: 100;
 }
-*{
-    margin: 0;
-}
+
 
 header {
     background-image: url(img/Grupo\ 22@2x.jpg);
